@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext">
+                <a href="index.html" class="bluetext">Home</a>
+                > <a
+                    href="e4c24d18d6029e22e07534c09911c1e16db2c9c85a99a29aabef31592e40e035.html">Ecopizza Tests</a>
+                > <a
+                    href="8eaaca3d11c714a50933af54a05cbaf1123c9ce904ff869b7eeb8bfafd2de317.html">Should be able to add products to the cart </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-12-2019 12:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <!--
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Should be able to add products to the cart<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">60.11s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+-->
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-comments-o"></i>
+                                    <span class="story-header-title">Ecopizza Tests</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><img class="story-outcome-icon"
+                                                            src="images/success.png"/></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Should be able to add products to the cart
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e34055cfc3d6ae7af4733de79e6a1984_NONE.png" alt=""
+                     title="Open home page" width="1920"/>
+                <img src="e34055cfc3d6ae7af4733de79e6a1984_NONE.png" alt=""
+                     title="Should be on the page: &lt;span class='step-parameter'&gt;https://ecopizza.com.ua/&lt;/span&gt;" width="1920"/>
+                <img src="d6a4ec33e81f65c4d3dbf64084e03b62_NONE.png" alt=""
+                     title="Open pizza page" width="1920"/>
+                <img src="d6a4ec33e81f65c4d3dbf64084e03b62_NONE.png" alt=""
+                     title="Should be on the page: &lt;span class='step-parameter'&gt;https://ecopizza.com.ua/catalog/pizza&lt;/span&gt;" width="1920"/>
+                <img src="d2799041a9b0f7738f9242bfb41cbc95_NONE.png" alt=""
+                     title="Filter pizza" width="1920"/>
+                <img src="c6dff0966fde442463275d85e8fcc1f7_NONE.png" alt=""
+                     title="Scroll down to product1" width="1920"/>
+                <img src="26130e8deda7160dcc2ab28f0e02bc98_NONE.png" alt=""
+                     title="Scroll down to product1" width="1920"/>
+                <img src="63be3322762598acd0cb9bbb477126ee_NONE.png" alt=""
+                     title="Choose product1" width="1920"/>
+                <img src="63be3322762598acd0cb9bbb477126ee_NONE.png" alt=""
+                     title="Should be on the page: &lt;span class='step-parameter'&gt;https://ecopizza.com.ua/products/pitstsa-gavajskaya&lt;/span&gt;" width="1920"/>
+                <img src="2b14b4cebaf130e7e6895bc2e70e4501_NONE.png" alt=""
+                     title="Open pizza page" width="1920"/>
+                <img src="d5d465e22a264efa28a193b8bc51ef67_NONE.png" alt=""
+                     title="Scroll down to product2" width="1920"/>
+                <img src="ad54e943479142cf1961f936da711f8c_NONE.png" alt=""
+                     title="Choose product2" width="1920"/>
+                <img src="7f41eba1972dfd07e7db27a085a1539e_NONE.png" alt=""
+                     title="Should be on the page: &lt;span class='step-parameter'&gt;https://ecopizza.com.ua/products/pitstsa-4-syra&lt;/span&gt;" width="1920"/>
+                <img src="c77b03a917fdb376215ec7fde0a9cb79_NONE.png" alt=""
+                     title="Should be on the page: &lt;span class='step-parameter'&gt;https://ecopizza.com.ua/products/pitstsa-4-syra&lt;/span&gt;" width="1920"/>
+                <img src="7f41eba1972dfd07e7db27a085a1539e_NONE.png" alt=""
+                     title="Click cart button" width="1920"/>
+                <img src="47bae3dcc1e3e480a7dd6123060eb697_NONE.png" alt=""
+                     title="Click cart button" width="1920"/>
+                <img src="d0976fe8210c538fb6d203c4d47f5afe_NONE.png" alt=""
+                     title="Click checkout button" width="1920"/>
+                <img src="4fc32d8382580d08d99f546f42cb6fdb_NONE.png" alt=""
+                     title="Click checkout button" width="1920"/>
+                <img src="4fc32d8382580d08d99f546f42cb6fdb_NONE.png" alt=""
+                     title="Should be on the page: &lt;span class='step-parameter'&gt;https://ecopizza.com.ua/cart&lt;/span&gt;" width="1920"/>
+                <img src="4fc32d8382580d08d99f546f42cb6fdb_NONE.png" alt=""
+                     title="Should be two products in the cart" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.0.47</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<acceptance-test-run title="Cart test" name="cartTest" steps="22" successful="22" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="98799" timestamp="2019-12-26T11:07:53.808+02:00">
+  <user-story id="feature.EcopizzaTests" name="Ecopizza tests" path="feature"/>
+  <tags>
+    <tag name="Ecopizza tests" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="30738">
+    <screenshots>
+      <screenshot image="e34055cfc3d6ae7af4733de79e6a1984_NONE.png"/>
+    </screenshots>
+    <description>Open home page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1966">
+    <screenshots>
+      <screenshot image="e34055cfc3d6ae7af4733de79e6a1984_NONE.png"/>
+    </screenshots>
+    <description>Should be on the page: &lt;span class=&apos;step-parameter&apos;&gt;https://ecopizza.com.ua/&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5560">
+    <screenshots>
+      <screenshot image="d6a4ec33e81f65c4d3dbf64084e03b62_NONE.png"/>
+    </screenshots>
+    <description>Open pizza page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1940">
+    <screenshots>
+      <screenshot image="d6a4ec33e81f65c4d3dbf64084e03b62_NONE.png"/>
+    </screenshots>
+    <description>Should be on the page: &lt;span class=&apos;step-parameter&apos;&gt;https://ecopizza.com.ua/catalog/pizza&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2749">
+    <screenshots>
+      <screenshot image="4a24b48a682c4c97ea6dfb06e0567ecf_NONE.png"/>
+    </screenshots>
+    <description>Filter pizza</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1885">
+    <screenshots>
+      <screenshot image="3d56030b581edbd69afb7965538f7421_NONE.png"/>
+      <screenshot image="c2923a163b59c839e5533286af9e1d7f_NONE.png"/>
+    </screenshots>
+    <description>Scroll down to product1</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5551">
+    <screenshots>
+      <screenshot image="63be3322762598acd0cb9bbb477126ee_NONE.png"/>
+    </screenshots>
+    <description>Choose product1</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1938">
+    <screenshots>
+      <screenshot image="63be3322762598acd0cb9bbb477126ee_NONE.png"/>
+    </screenshots>
+    <description>Should be on the page: &lt;span class=&apos;step-parameter&apos;&gt;https://ecopizza.com.ua/products/pitstsa-gavajskaya&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3573">
+    <screenshots>
+      <screenshot image="2b14b4cebaf130e7e6895bc2e70e4501_NONE.png"/>
+    </screenshots>
+    <description>Open pizza page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2044">
+    <screenshots>
+      <screenshot image="d5d465e22a264efa28a193b8bc51ef67_NONE.png"/>
+    </screenshots>
+    <description>Scroll down to product2</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5002">
+    <screenshots>
+      <screenshot image="7f41eba1972dfd07e7db27a085a1539e_NONE.png"/>
+    </screenshots>
+    <description>Choose product2</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2005">
+    <screenshots>
+      <screenshot image="7f41eba1972dfd07e7db27a085a1539e_NONE.png"/>
+    </screenshots>
+    <description>Should be on the page: &lt;span class=&apos;step-parameter&apos;&gt;https://ecopizza.com.ua/products/pitstsa-4-syra&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2338">
+    <screenshots>
+      <screenshot image="5442dd6a180a928aee50ed9706d070e7_NONE.png"/>
+    </screenshots>
+    <description>Click cart button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3871">
+    <screenshots>
+      <screenshot image="d0976fe8210c538fb6d203c4d47f5afe_NONE.png"/>
+      <screenshot image="0730af248bd78090284842b7cc800e50_NONE.png"/>
+    </screenshots>
+    <description>Click checkout button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1614">
+    <screenshots>
+      <screenshot image="0730af248bd78090284842b7cc800e50_NONE.png"/>
+    </screenshots>
+    <description>Should be on the page: &lt;span class=&apos;step-parameter&apos;&gt;https://ecopizza.com.ua/cart&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1724">
+    <screenshots>
+      <screenshot image="0730af248bd78090284842b7cc800e50_NONE.png"/>
+    </screenshots>
+    <description>Should be two products in the cart</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2335">
+    <screenshots>
+      <screenshot image="0e4846e7f52bb3165d4dc0f89a5d352e_NONE.png"/>
+    </screenshots>
+    <description>Fill in required fields</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3004">
+    <screenshots>
+      <screenshot image="631fb437a98476aecabea796786b2c2b_NONE.png"/>
+    </screenshots>
+    <description>Set coupon: &lt;span class=&apos;step-parameter&apos;&gt;Я сохраняю деревья&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1962">
+    <screenshots>
+      <screenshot image="631fb437a98476aecabea796786b2c2b_NONE.png"/>
+    </screenshots>
+    <description>Total price should be changed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2153">
+    <screenshots>
+      <screenshot image="037e2034f850fdd883cdee69ca199723_NONE.png"/>
+    </screenshots>
+    <description>Choose delivery option</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2766">
+    <screenshots>
+      <screenshot image="6d1b7a0dba94662091f0da801a123f0b_NONE.png"/>
+    </screenshots>
+    <description>Delete product</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2029">
+    <screenshots>
+      <screenshot image="6d1b7a0dba94662091f0da801a123f0b_NONE.png"/>
+    </screenshots>
+    <description>Total price should be changed</description>
+  </test-step>
+</acceptance-test-run>
